@@ -7,7 +7,7 @@ export default function Header() {
         <header id='main-header'>
             <div id='title'>
                 <img src={logoImg} alt="A restaurant" id='img' />
-                <h1>FoodApp</h1>
+                <h1>Foodie</h1>
             </div>
             <nav>
                 <Button textOnly>Cart (0)</Button>
