@@ -7,7 +7,7 @@ const requestConfig = {};
 export default function Meals() {
     const { data: loadedMeals,
         isLoading,
-        error } = useHttp('http://localhost:3000/meals', requestConfig, []);
+        error } = useHttp('https://hungrier.onrender.com/meals', requestConfig, []);
 
     if (isLoading) {
         return <p className='center'>Loading...</p>
